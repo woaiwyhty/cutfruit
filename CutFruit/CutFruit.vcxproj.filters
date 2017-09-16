@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bitmap">
+      <UniqueIdentifier>{3f6c1376-0331-4b2a-b229-1bf07204b35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFont">
+      <UniqueIdentifier>{7fbdb243-7f3d-48c1-b4dd-d215ff8e2906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameController">
+      <UniqueIdentifier>{7ab3fd90-fc80-49f3-8b5f-4079272ffe46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{a70a92f6-9e9a-4921-937b-d16cdfc92f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fruit">
+      <UniqueIdentifier>{b154430c-1461-477f-b37d-1593650d20ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteController">
+      <UniqueIdentifier>{e54c6b7c-a336-4e5e-a02a-42c7ce8c1e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MouseBrush">
+      <UniqueIdentifier>{e9f59f91-1f89-4cd5-91d2-371f96d0057c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{fca66828-05e3-40c3-8949-399286c32187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleController">
+      <UniqueIdentifier>{a8c836e2-2d87-46bb-99fb-1eb0e9550cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FontController">
+      <UniqueIdentifier>{2e44ceec-7bd2-4907-8bb9-9c68e39502ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamefont.h">
+      <Filter>GameFont</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogicController.h">
+      <Filter>GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Fruit</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteController.h">
+      <Filter>SpriteController</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseBrush.h">
+      <Filter>MouseBrush</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitController.h">
+      <Filter>SpriteController</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTrace.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="colorlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleController.h">
+      <Filter>ParticleController</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FontController.h">
+      <Filter>FontController</Filter>
+    </ClInclude>
+    <ClInclude Include="KnifeParticle.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGameEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamefont.cpp">
+      <Filter>GameFont</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogicController.cpp">
+      <Filter>GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>Fruit</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteController.cpp">
+      <Filter>SpriteController</Filter>
+    </ClCompile>
+    <ClCompile Include="MoushBrush.cpp">
+      <Filter>MouseBrush</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitController.cpp">
+      <Filter>SpriteController</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTrace.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleController.cpp">
+      <Filter>ParticleController</Filter>
+    </ClCompile>
+    <ClCompile Include="FontController.cpp">
+      <Filter>FontController</Filter>
+    </ClCompile>
+    <ClCompile Include="KnifeParticle.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CutFruit.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sound1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\SPLATTER_MEDIUM_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\SPLATTER_MEDIUM_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\SPLATTER_SMALL_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\SPLATTER_SMALL_2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
